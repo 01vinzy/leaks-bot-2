@@ -11,7 +11,7 @@ var http = require('http');
 checkUpdate();
   
  async function checkUpdate(){
-    await fetch("https://discord.com/api/webhooks/838936023450910731/ElxpOC-YclCRV8pmyks0Jj11PgZDLqVHH1jsq7YpCM_7c0amaU8lf8uGvxpUwApHzu65",{
+    await fetch("DISCORD WEBHOOK HERE",{
       method : 'POST',
       headers: {
 			"Content-Type": "application/json",
